@@ -174,11 +174,7 @@
               }
             }
           };
-          xmlHttpRequest.open(
-            "GET",
-            "https://product-clothes-sprot.herokuapp.com/api/v1/products",
-            false
-          );
+          xmlHttpRequest.open("GET", "http://localhost:8083/api/v1/products", false);
           xmlHttpRequest.send();
         }
       }
